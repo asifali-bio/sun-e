@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/sun_moji.svg" width="220">
+</p>
+
 # SUN Engine
 **Single-Cell Visualization with Unreal Engine**
 
