@@ -1,4 +1,4 @@
-# 🌞 SUN Engine
+# SUN Engine
 **Single-Cell Visualization with Unreal Engine**
 
 SUN Engine is a prototype pipeline for transforming single-cell RNA-seq data into interactive 3D visualizations using Unreal Engine. It aggregates biological features (Pfam domains or Gene Ontology terms) and renders them as vertical “cell towers” in 3D space.
