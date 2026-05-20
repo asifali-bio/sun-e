@@ -5,7 +5,7 @@
 # SUN Engine
 **Single-Cell Visualization with Unreal Engine**
 
-SUN Engine is a prototype pipeline for transforming single-cell RNA-seq data into interactive 3D visualizations using Unreal Engine. It aggregates biological features (Pfam domains or Gene Ontology terms) and renders them as vertical “cell towers” in 3D space.
+SUN Engine is a prototype pipeline for transforming large-scale single-cell RNA-seq data into interactive 3D visualizations using Unreal Engine. It aggregates biological features (Pfam domains or Gene Ontology terms) and renders them as vertical “cell towers” in 3D space.
 
 ---
 
@@ -52,20 +52,14 @@ The result is a spatial representation of cellular composition that can be explo
   - domain (Pfam)
   - or GO term
 
-Result:
-
-```
-features × cells matrix
-```
-
 ### 4. 3D Encoding
 - X/Y → PCA or UMAP coordinates
 - Z → numeric index of feature (alphabetically ordered)
-- Point size → expression magnitude
+- Point size → aggregated expression (magnitude)
 
 ### 5. Visualization
-- Render using Plotly (prototype)
-- Export for Unreal Engine integration
+- Export geometry data for Unreal Engine integration (Arrow / Feather/ Parquet)
+- GPU rendering using Niagara particle system
 
 ---
 
