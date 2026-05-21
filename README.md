@@ -58,7 +58,7 @@ The result is a spatial representation of cellular composition that can be explo
 - Point size → aggregated expression (magnitude)
 
 ### 5. Visualization
-- Export geometry data for Unreal Engine integration (Feather / Parquet)
+- Export geometry data for Unreal Engine integration (Feather)
 - GPU rendering using Niagara particle system
 
 ---
